@@ -1,0 +1,473 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+/*  background-image: linear-gradient(
+    to top,
+    transparent 79px, 
+    #ccc 99px, 
+    #ccc 0
+  );
+  */
+  background-color: #ccc;
+}
+.navbar{
+	width: 30%;
+	height: 100vh;
+	position: fixed;
+	padding: 3%;
+	padding-top: 5%; 
+	background: #999999 url('') no-repeat;
+	background-size: 100% 120%;
+	opacity: 1;
+}
+
+.navbar .logo{
+	padding: 0;
+	padding-top:10vh; 
+	color: #000;
+	height: 30%;
+	width: 45% ;
+/*	border: 1px solid;*/
+	position: relative;
+}
+.logo p{
+	line-height: 0.8;
+	align-items: flex-end;
+	display: flex;
+	justify-content: center;
+/*	border: 1px solid; */
+}
+
+.logo #one{
+font-size: 1.6vw;
+}
+
+.logo #two{
+font-size:2.8vw;
+padding-left: 0;
+}
+.navbar #three{
+font-size: 2vw;
+}
+.navbar ul{
+/*border: 1px solid; */
+padding-bottom: 8vh;
+}
+.navbar ul li{
+	list-style-type: none;
+}
+.navbar ul li a{
+	color: black; 
+	text-decoration: none;
+	padding-left: 0;
+	line-height: 1.6;
+	font-size: 1.8vw;
+}
+
+.navbar ul li a:hover ,
+.navbar ul li a:focus{
+	color: #888;
+	transition: 0.5s;
+	transform: scale(1.01);
+  text-decoration: line-through;
+}
+.navbar p{
+	font-size: 1.6vw;
+}
+.main-page{
+	height: 100vh;
+	text-align: center;
+	font-size: 6vw;
+	color: #f1f1f1;
+	background: #444  url('c2.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-size: cover;
+}
+.second-page{
+	height: auto;
+	width: 100%;
+	padding-left: 30%;
+	background-color: #444;
+}
+.second-page #inner h1 {
+	text-align: center;
+}
+.second-page #inner p{
+	padding: 5% 25%;
+	text-align: center;
+}
+.second-page #inner {
+	padding: 5%;
+	height: 100%;
+	width: 100%;
+	background: #777 url('c2.jp') no-repeat;
+	background-size: cover;
+}
+.second-page #inner .owner{
+	 text-align: right; 
+	 color: #ddd;
+}
+.fresh{
+	padding-left: 30%;
+	height: auto;
+}
+.fresh h1{
+	padding-top: 2%;
+	padding-left: 3%;
+	font-size: 3vw;
+	background: #aaa ;
+	text-align: center;
+}
+.fresh .fresh-inner{
+	box-sizing: border-box;
+	padding: 3%; 
+	margin: auto;
+}
+
+.fresh .fresh-inner .sake ,
+.fresher .collection .sake  {
+    max-height: 180px;
+	width: 28%;
+	border: 0.2px solid;
+	float: left;
+	margin: 2.2%; 
+	overflow: hidden;
+}
+.fresh .fresh-inner .sake .Foto1{
+	width: 100%; 
+	height: 180px;
+	background: #999 url(c2.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	transform: scale(1);
+    transition: .4s ease-in-out;
+}
+.fresh .fresh-inner .sake:hover .Foto1 ,
+.fresh .fresh-inner .sake:focus .Foto1{
+	transform: scale(1.2);
+	transition: 0.4s ease-in-out;
+}
+.fresh:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.fresher{
+	padding-left: 30%;
+	height: auto;
+	box-sizing: border-box;
+}
+.fresher h1{
+	padding-top: 2%;
+	padding-left: 3%;
+	font-size: 3vw;
+	background: #aaa ;
+	text-align: center;
+}
+.fresher .collection{
+	box-sizing: border-box;
+	padding: 3%; 
+}
+.fresher .collection:after{
+	content: "";
+	display: block;
+	clear: both;	
+}
+
+.fresher .collection .sake .Foto1{
+	width: 100%; 
+	height: 180px;
+	background: #999 url(c2.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	transform: scale(1);
+    transition: .4s ease-in-out;
+}
+.fresher .collection .sake a{
+	color: #ffffff;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+	font-size: 2vw;
+	position: absolute;
+	display: none;
+	text-decoration:underline; 
+}
+.fresher .collection .sake:hover .Foto1 ,
+.fresher .collection .sake:focus .Foto1{
+	transform: scale(1.3);
+	opacity: 0.8;
+	transition: 0.5s ease-in-out;
+}
+
+.fresher .collection .sake:hover a ,
+.fresher .collection .sake:focus a{
+	display:block;
+}
+.fresher:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+footer{
+	width: 100%;
+	padding: 0;
+	padding-left: 30%;
+	background-color: #f1f1f1;
+    height: 180px;
+    /*
+    position: sticky;
+    z-index: -1;
+    */
+}
+footer .inside-footer{
+	padding: 10%;
+	padding-top: 3%;
+	height: 100%;
+	background-color: #222;
+/*	border: 2px solid white; */
+}
+footer .inside-footer h1{
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 2%;
+}
+
+footer .inside-footer span{
+	width: 100%;
+/*	border: 2px solid black;  */
+	float: left;
+	text-align:left;
+}
+footer .inside-footer span a{
+display: inline-block;
+width: auto;
+height: auto;
+font-size: 2.4vw;
+color: #ffffff;
+margin-top: 7vh;
+margin-left: 1%;
+margin-right: 6%;
+position: relative;
+text-decoration: none;
+/*border: 2px solid white;*/
+}
+footer .inside-footer span .resize{
+	font-size: 2vw;
+}
+footer .inside-footer span a:not(:last-child):hover,
+footer .inside-footer span a:not(:last-child):focus{
+animation: myfun 1s linear infinite;
+}
+@keyframes myfun{
+	from{
+transform: scale(1);
+	}
+	to{
+transform: scale(0.8);
+	}
+}
+footer .inside-footer span a:last-child:hover,
+footer .inside-footer span a:last-child:focus{
+	transition: 1s;
+	transform: scale(0.95);
+}
+
+@media screen and (max-width: 300px){
+	.navbar{
+		width: 25%;
+	}
+	.navbar .logo{
+		padding-left: 25%;
+		transform: scale(1.3);
+	}
+	.navbar ul{
+		padding-bottom: 0;
+	}
+	.navbar ul li a{
+		font-size: 2.5vw;
+	}
+	.navbar #three{
+		padding-top: 6vh;
+		font-size: 2.9vw;
+	}
+	.main-page{
+		height: 50vh;
+	}
+	.second-page , 
+	.fresh , 
+	.fresher{
+		padding-left: 25%;
+	}
+	.second-page #inner p{
+		padding: 8% 15%;
+		font-size: 2.4vw;
+	}
+	.second-page #link1, 
+	.fresh #link2 , 
+	.fresher #link3 ,
+	footer .inside-footer #link4{
+		font-size: 6vw;
+	}
+	.second-page #inner .owner{
+		padding: 3% 25%;
+	}
+/*	.fresh .fresh-inner ,
+	.fresher .collection{
+		margin: 0;
+		padding: 0;
+	}
+	*/
+	.fresh .fresh-inner .sake ,
+	.fresher .collection .sake{
+	max-height: 120px;
+	width: 100%;
+	float: none;
+	margin: 2%; 
+	padding-bottom: 0;
+    }
+    .fresher .collection .sake a{
+	top: 30%;
+	font-size: 3.4vw;
+}
+    footer{
+    	padding-left: 25%;
+    	height: 80px;
+    }
+    footer .inside-footer h1{
+    	margin-top: 2%;
+	    margin-bottom: 0%;
+    }
+    footer .inside-footer span a{
+        font-size: 3vw;
+        margin-top: 7vh;
+        margin-left: 1%;
+        margin-right: 5%;
+    }
+    footer .inside-footer span .resize{
+	    font-size: 3.2vw;
+    }
+    footer .inside-footer span a:not(:last-child):hover,
+    footer .inside-footer span a:not(:last-child):focus{
+        animation: myfun 1s linear infinite;
+    }
+    @keyframes myfun{
+	    from{
+            transform: scale(1);
+	    }
+	    to{
+            transform: scale(0.9);
+	    }
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 301px){
+	.navbar .logo{
+		transform: scale(1.3);
+		padding-left: 12%;
+	}
+	.navbar ul{
+		padding-bottom: 0;
+	}
+	.navbar ul li a{
+		font-size: 2.5vw;
+	}
+	.navbar #three{
+		padding-top: 6vh;
+		font-size: 2.9vw;
+	}
+	.main-page{
+		height: 75vh;
+	}
+	.second-page #inner p{
+		padding: 8% 18%;
+		font-size: 2.4vw;
+	}
+	.second-page #link1, 
+	.fresh #link2 , 
+	.fresher #link3 ,
+	footer .inside-footer #link4{
+		font-size: 5vw;
+	}
+	.second-page #inner .owner{
+		padding: 2% 25%;
+	}
+/*	.fresh .fresh-inner ,
+	.fresher .collection{
+		margin: 0;
+		padding: 0;
+	}
+	*/
+	.fresh .fresh-inner , 
+	.fresher .collection{
+		width: 100%;
+		padding: 8%;
+		float: none;
+	}
+	.fresh .fresh-inner .sake ,
+	.fresher .collection .sake{
+	max-height: 200px;
+	width: 100%;
+	float: none;
+	margin: 2%; 
+	padding-bottom: 0;
+	overflow: hidden;
+    }
+    .fresher .collection .sake a{
+	top: 30%;
+	font-size: 3.4vw;
+    }
+    footer{
+    	padding-left: 30%;
+    	height: 120px;
+    }
+    footer .inside-footer h1{
+    	margin-top: 2%;
+	    margin-bottom: 0%;
+    }
+    footer .inside-footer span a{
+        font-size: 3vw;
+        margin-top: 7vh;
+        margin-left: 1%;
+        margin-right: 5%;
+    }
+    footer .inside-footer span .resize{
+	    font-size: 3vw;
+    }
+    footer .inside-footer span .rectify{
+	    font-size: 2.6vw;
+    }
+    footer .inside-footer span a:not(:last-child):hover,
+    footer .inside-footer span a:not(:last-child):focus{
+        animation: myfun 0.6s linear infinite;
+    }
+    @keyframes myfun{
+	    from{
+            transform: scale(1);
+	    }
+	    to{
+            transform: scale(0.85);
+	    }
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 601px){
+	footer{
+		height: 140px;
+	}
+}
+@media screen and (max-width: 1000px) and (min-width: 801px){
+	footer{
+		height: 160px;
+	}
+}
+
