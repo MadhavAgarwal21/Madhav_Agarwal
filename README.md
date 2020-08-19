@@ -32,7 +32,7 @@ This is an online web game which is about driving a flying bird through multiple
  </table>
 
 
-### [Back To The Top](#Project-Description)
+[Back To The Top](#Project-Description)
 
 ---
 
