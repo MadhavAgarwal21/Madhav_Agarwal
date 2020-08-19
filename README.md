@@ -95,6 +95,6 @@ Designed a responsive webpage for an auto-parts manufacturing company.
 
 ## Author Info
 
-- LinkedIn - [James Q Quick](https://jamesqquick.com) // update
+- LinkedIn - [Madhav Agarwal](https://www.linkedin.com/in/madhav-agarwal-2k/) 
 
 [Back To The Top](#Project-Description)
