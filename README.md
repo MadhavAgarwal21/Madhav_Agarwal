@@ -15,7 +15,7 @@ This is an online web game which is about driving a flying bird through multiple
 
 - JavaScript functions are used to handle bird's relative position and score computation.
 - HTML/CSS features are used to style the GameArea.
-- Link to website // Update
+- Link to website: https://funrungame.netlify.app/
 
 #### ScreenShots
 
@@ -45,7 +45,7 @@ product category and occasion across multiple pages
 
 - JavaScript functions are used to display the designer's catalogue.
 - HTML/CSS features are used to fit width along with vertical scroll functionality to view the webpage across multiple devices.
-- Link to website // Update
+- Link to website: https://mantradesigners.000webhostapp.com/index.html
 
 #### ScreenShots
 
@@ -74,7 +74,7 @@ Designed a responsive webpage for an auto-parts manufacturing company.
 #### Technology
 
 - HTML/CSS features are used to fit width along with vertical scroll functionality to view the webpage across multiple devices.
-- Link to website // Update
+- Link to website: https://fungamebymadhav.netlify.app/ 
 
 #### ScreenShots
 
