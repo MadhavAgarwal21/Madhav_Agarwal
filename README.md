@@ -25,8 +25,8 @@ This is an online web game which is about driving a flying bird through multiple
      <td>Restart Run</td>
   </tr>
   <tr>
-    <td><img src="/https://github.com/ishan18/Cat-Dog-Classifier/blob/master/screenshots/home.jpeg" alt="Home Screen" width="100%" height="400px"></td>
-    <td><img src="/https://github.com/ishan18/Cat-Dog-Classifier/blob/master/screenshots/cat.jpeg" alt="Cat Classification" width="100%" height="400px">
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(49).png" alt="Home Screen" width="100%" height="350px"></td>
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(48).png" alt="Cat Classification" width="100%" height="350px">
 </td>
   </tr>
  </table>
@@ -52,13 +52,13 @@ product category and occasion across multiple pages
 <table>
   <tr>
     <td>Home Page</td>
-     <td>Link to Catalogue</td>
+     <td>Mini Catalogue</td>
      <td>Catalogue</td>
   </tr>
   <tr>
-    <td><img src="/https://github.com/ishan18/Cat-Dog-Classifier/blob/master/screenshots/home.jpeg" alt="Home Screen" width="100%" height="400px"></td>
-    <td><img src="/https://github.com/ishan18/Cat-Dog-Classifier/blob/master/screenshots/cat.jpeg" alt="Cat Classification" width="100%" height="400px">
-    <td><img src="/https://github.com/ishan18/Cat-Dog-Classifier/blob/master/screenshots/cat.jpeg" alt="Cat Classification" width="100%" height="400px">
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(50).png" alt="Home Screen" width="100%" height="350px"></td>
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(51).png" alt="Cat Classification" width="100%" height="350px">
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(52).png" alt="Cat Classification" width="100%" height="350px">
 </td>
   </tr>
  </table>
@@ -83,8 +83,7 @@ Designed a responsive webpage for an auto-parts manufacturing company.
     <td>Home Page</td>
   </tr>
   <tr>
-    <td><img src="/https://github.com/ishan18/Cat-Dog-Classifier/blob/master/screenshots/home.jpeg" alt="Home Screen" width="100%" height="400px"></td>
-</td>
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(53).png" alt="Cat Classification" width="100%" height="350px">
   </tr>
  </table>
 
