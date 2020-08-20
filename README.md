@@ -81,9 +81,13 @@ Designed a responsive webpage for an auto-parts manufacturing company.
 <table>
   <tr>
     <td>Home Page</td>
+    <td>Mobille View</td>
   </tr>
   <tr>
     <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(53).png" alt="Cat Classification" width="100%" height="350px">
+    </td>
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(54).png" alt="Cat Classification" width="100%" height="350px">
+    </td>
   </tr>
  </table>
 
