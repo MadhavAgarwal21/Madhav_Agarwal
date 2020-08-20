@@ -25,8 +25,8 @@ This is an online web game which is about driving a flying bird through multiple
      <td>Restart Run</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(49).png" alt="Home Screen" width="100%" height="350px"></td>
-    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(48).png" alt="Cat Classification" width="100%" height="350px">
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(49).png" alt="Home Screen" width="100%" height="300px"></td>
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(48).png" alt="Cat Classification" width="100%" height="300px">
 </td>
   </tr>
  </table>
@@ -56,9 +56,9 @@ product category and occasion across multiple pages
      <td>Catalogue</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(50).png" alt="Home Screen" width="100%" height="350px"></td>
-    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(51).png" alt="Cat Classification" width="100%" height="350px">
-    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(52).png" alt="Cat Classification" width="100%" height="350px">
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(50).png" alt="Home Screen" width="100%" height="275px"></td>
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(51).png" alt="Cat Classification" width="100%" height="275px">
+    <td><img src="https://github.com/MadhavAgarwal21/Madhav_Agarwal/blob/master/images/Screenshot%20(52).png" alt="Cat Classification" width="100%" height="275px">
 </td>
   </tr>
  </table>
